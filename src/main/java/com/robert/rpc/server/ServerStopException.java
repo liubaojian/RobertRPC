@@ -1,0 +1,10 @@
+package com.robert.rpc.server;
+
+public class ServerStopException extends RuntimeException {
+
+	private static final long serialVersionUID = -5936051461406395747L;
+
+	public ServerStopException() {
+		super("");
+	}
+}
